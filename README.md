@@ -1,3 +1,8 @@
+# installs
+
+1. npm i gray-matter --save
+2. npm i react-markdown
+
 # Turborepo starter
 
 This is an official starter Turborepo.
