@@ -1,12 +1,12 @@
 ---
-title: 'HSYNTH WEB'
+title: 'HSYNTH'
 detail: 'React-based MIDI controller for the ASM Hydrasynth.'
 image: hsynth-web.png
 keywords: ['web']
 subKeywords: ['react', 'typescript']
 orderIndex: 19
 isFeatured: false
-url: 'https://hsynth-web.tylercoder.com'
+url: 'https://hsynth.tylercoder.com'
 ---
 
 # This is a title
