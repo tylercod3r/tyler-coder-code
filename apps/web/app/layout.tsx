@@ -55,7 +55,7 @@ export default function RootLayout({
         <title>Next Layout Example</title>
       </head> */}
       <body className="bg-zinc-900 text-zinc-200">
-        <div className="flex flex-col border-2 border-green-500">
+        <div className="flex flex-col">
           <AppHeader props={data} />
  
           <div className="flex flex-row">

@@ -21,7 +21,7 @@ const TechLibrary = (props: IProps) => {
       <div className="w-1/5 mr-2"></div>
 
       <div className="w-3/5 p-3 mr-4 text-center">
-        <h3 className="bg-orange-400">tools</h3>
+        <h3 className="bg-orange-400 rounded-t">tools</h3>
         {props.techs?.map((tech: any) => (
           <TechPanel key={tech.title} tech={tech} />
         ))}

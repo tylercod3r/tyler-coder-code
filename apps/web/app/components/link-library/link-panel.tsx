@@ -4,7 +4,7 @@ interface IProps {
 
 function LinkPanel(props: IProps) {
   return (
-    <section className="border-2 border-blue-400">
+    <section>
       <a
         className="px-0"
         href={props.link.url}
