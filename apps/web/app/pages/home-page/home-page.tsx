@@ -1,18 +1,14 @@
 "use client";
 
 import CertLibrary from "../../components/cert-library/cert-library";
-import LinkLibrary from "../../components/link-library/link-library";
 import ProjectLibrary from "../../components/project-library/project-library";
+import TechLibrary from "../../components/tech-library/tech-library";
 
 interface IProps {
+  techs: any;
   projects: any;
-  certs: any;
-  links: any;
 }
 
-// This is a Client Component. It receives data as props and
-// has access to state and effects just like Page components
-// in the `pages` directory.
 export default function HomePage(props: { props: IProps }) {
   return (
     <main /*className={styles.main}*/>
@@ -57,10 +53,9 @@ export default function HomePage(props: { props: IProps }) {
         </div> */}
 
       <div className="flex">
-        <LinkLibrary links={props.props.links} />
-        <ProjectLibrary projects={props.props.projects} />
-        <br></br>
-        <CertLibrary certs={props.props.certs} />
+        <TechLibrary techs={props.props.techs} />
+        {/* <ProjectLibrary projects={props.props.projects} /> */}
+        {/* <CertLibrary certs={props.props.certs} /> */}
       </div>
     </main>
   );

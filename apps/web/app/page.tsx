@@ -12,11 +12,13 @@ function getData() {
   const LINK_CONTENT_DIR_LOCAL: string = "links";
   const PROJECT_CONTENT_DIR_LOCAL: string = "projects";
   const CERT_CONTENT_DIR_LOCAL: string = "certs";
+  const TECH_CONTENT_DIR_LOCAL: string = "techs";
 
   return {
     projects: getAllContent(getContentPath(PROJECT_CONTENT_DIR_LOCAL)),
     certs: getAllContent(getContentPath(CERT_CONTENT_DIR_LOCAL)),
     links: getLinkContent(getContentPath(LINK_CONTENT_DIR_LOCAL)),
+    techs: getAllContent(getContentPath(TECH_CONTENT_DIR_LOCAL)),
   };
 }
 
