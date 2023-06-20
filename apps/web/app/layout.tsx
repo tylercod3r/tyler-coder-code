@@ -41,11 +41,11 @@ export default function RootLayout({
           <AppHeader />
 
           <div className="flex flex-row">
-            <div className="py-8 border-2 rounded-t-lg">
+            <div className="py-8 border-2 border-blue-500 rounded-t-lg">
               <LinkLibrary props={data} />
             </div>
 
-            <div className="w-full py-2 border-2 rounded-r-lg">
+            <div className="w-full py-2 border-2 rounded-r-lg border-slate-600">
               {children}
             </div>
           </div>

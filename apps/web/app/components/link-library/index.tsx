@@ -11,7 +11,7 @@ interface IPropsLink {
 
 const LinkLibrary = (props: { props: IProps }) => {
   return (
-    <div>
+    <div className="border-red-800">
       <ul className="px-4 space-y-12 text-blue-200">
         {props.props.links?.map((link: IPropsLink) => (
           <LinkPanel key={link.title} link={link} />
