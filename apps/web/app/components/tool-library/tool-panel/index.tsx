@@ -6,7 +6,7 @@ interface IProps {
 
 const ToolPanel = (props: IProps) => {
   return (
-    <section className="border-2 border-slate-800">
+    <section className="border-2 border-slate-600">
       <div /*className={styles.keywordItems}*/>
         {props.tech.keywords?.map((keyword: string) => (
           <p key={keyword} /*className={KeywordFont.className}*/>
@@ -15,7 +15,7 @@ const ToolPanel = (props: IProps) => {
         ))}
       </div>
 
-      <div /*className={styles.linkButtons}*/>
+      <div className="text-slate-300">
         <Link href={props.tech.url}>{props.tech.title}</Link>
       </div>
     </section>

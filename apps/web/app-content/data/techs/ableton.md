@@ -4,7 +4,7 @@ detail: "audio daw"
 image: b-card.jpg
 keywords: ['daw']
 subKeywords: ['audio']
-orderIndex: 7
+orderIndex: 6
 isFeatured: false
 url: 'https://www.ableton.com/en/'
 ---
