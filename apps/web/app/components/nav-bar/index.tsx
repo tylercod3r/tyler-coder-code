@@ -6,6 +6,7 @@ import {
   projectsLabel,
   certsLabel,
   contactLabel,
+  contactEmail
 } from "@/app-content/models/site-text";
 
 const NavBar = () => {
@@ -60,7 +61,7 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">{contactLabel}</a>
+        <a href={`mailto:` + `${contactEmail}`} className="btn">{contactLabel}</a>
       </div>
     </div>
   );
