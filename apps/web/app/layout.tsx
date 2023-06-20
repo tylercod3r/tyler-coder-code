@@ -1,15 +1,15 @@
 import { Metadata } from "next";
 
-import AppHeader from "./components/app-header/app-header";
-import AppFooter from "./components/app-footer/app-footer";
+import AppHeader from "@/app/components/app-header";
+import AppFooter from "@/app/components/app-footer";
 
 import "./globals.css";
+import LinkLibrary from "@/app/components/link-library";
+import { RobotoFont } from "@/app-content/fonts/app-fonts";
 import {
-  getAllContent,
   getContentPath,
   getLinkContent,
-} from "./utils/content-utils";
-import LinkLibrary from "./components/link-library/link-library";
+} from "@/app-content/utils/content-utils";
 
 export const metadata: Metadata = {
   title: "tylercoder.com",
@@ -17,23 +17,11 @@ export const metadata: Metadata = {
     "Fullstack software development for web, gaming, & mixed-reality.",
 };
 
-interface IPropsLink {
-  title: string;
-  url: string;
-}
-
 function getData() {
-  // TODO - confirm why these need to be defined locally (as otherwise 'undefined')
   const LINK_CONTENT_DIR_LOCAL: string = "links";
-  const PROJECT_CONTENT_DIR_LOCAL: string = "projects";
-  const CERT_CONTENT_DIR_LOCAL: string = "certs";
-  const TECH_CONTENT_DIR_LOCAL: string = "techs";
 
   return {
-    // projects: getAllContent(getContentPath(PROJECT_CONTENT_DIR_LOCAL)),
-    // certs: getAllContent(getContentPath(CERT_CONTENT_DIR_LOCAL)),
     links: getLinkContent(getContentPath(LINK_CONTENT_DIR_LOCAL)),
-    // techs: getAllContent(getContentPath(TECH_CONTENT_DIR_LOCAL)),
   };
 }
 
@@ -43,27 +31,21 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   const data = getData();
-  {
-    // {
-    //   console.log("link count: " + data.links[0].slug);
-    // }
-  }
 
   return (
-    <html lang="en">
-      {/* <head>
-        <title>Next Layout Example</title>
-      </head> */}
-      <body className="bg-zinc-900 text-zinc-200">
+    <html lang="en" data-theme="my-theme">
+      <body
+        className={`max-w-2xl py-6 m-auto ${RobotoFont.variable} font-roboto`}
+      >
         <div className="flex flex-col">
-          <AppHeader props={data} />
- 
+          <AppHeader />
+
           <div className="flex flex-row">
-            <div className="border-2 border-red-800 py-8 bg-red-800">
+            <div className="py-8 border-2 rounded-t-lg">
               <LinkLibrary props={data} />
             </div>
 
-            <div className="border-2 border-blue-800 py-2 bg-blue-800 w-full">
+            <div className="w-full py-2 border-2 rounded-r-lg">
               {children}
             </div>
           </div>
