@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { useState } from "react";
+import { useRouter, usePathname } from 'next/navigation'
 
 import {
   siteTitle,
@@ -10,6 +12,8 @@ import {
 } from "@/app-content/models/site-text";
 
 const NavBar = () => {
+  const router = useRouter();
+
   return (
     <div className="navbar bg-base-100">
       <div className="navbar-start">
@@ -50,13 +54,13 @@ const NavBar = () => {
       <div className="hidden navbar-center lg:flex">
         <ul className="px-1 menu menu-horizontal">
           <li>
-            <Link href="/">{aboutLabel}</Link>
+            <Link className={usePathname() == "/" ? "active" : ""} href="/">{aboutLabel}</Link>
           </li>
           <li>
-            <Link href="/projects">{projectsLabel}</Link>
+            <Link className={usePathname() == "/projects" ? "active" : ""} href="/projects">{projectsLabel}</Link>
           </li>
           <li>
-            <Link href="/certs">{certsLabel}</Link>
+            <Link className={usePathname() == "/certs" ? "active" : ""}  href="/certs">{certsLabel}</Link>
           </li>
         </ul>
       </div>
