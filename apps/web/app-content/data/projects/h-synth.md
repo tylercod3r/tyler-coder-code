@@ -6,7 +6,7 @@ keywords: ['web']
 subKeywords: ['react', 'typescript']
 orderIndex: 19
 isFeatured: false
-url: 'https://hsynth.tylercoder.com'
+url: 'https://h-synth.tylercoder.com'
 ---
 
 # This is a title
