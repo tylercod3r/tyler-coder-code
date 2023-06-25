@@ -19,10 +19,12 @@ const AppHeader = () => {
               hidden: {
                 scale: 0.8,
                 opacity: 0,
+                y:-45
               },
               visible: {
                 scale: 2,
                 opacity: 1,
+                y:10,
                 transition: {
                   delay: 0.4,
                 },

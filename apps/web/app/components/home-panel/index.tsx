@@ -19,10 +19,10 @@ const HomePanel = (props: { props: IProps }) => {
           initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 15 }}
-          transition={{ delay: 0.25 }}
-          className="flex border-slate-800 text-primary"
+          transition={{ delay: .5 }}
+          className="flex m-auto border-slate-800 text-primary"
         >
-          <Image alt="yop" src="/images/about-page/face.jpg" width={400} height={400} />
+          <Image className="m-auto rounded-lg" alt="yop" src="/images/about-page/face-4.jpg" width={400} height={400} />
           {/* <TechLibrary techs={props.props.techs} /> */}
 
         </motion.div>

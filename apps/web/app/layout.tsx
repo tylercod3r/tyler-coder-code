@@ -35,17 +35,17 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="my-theme">
       <body
-        className={`max-w-2xl py-6 m-auto ${RobotoFont.variable} font-roboto`}
+        className={`max-w-2xl py-6 bg-black m-auto ${RobotoFont.variable} font-roboto`}
       >
         <div className="flex flex-col">
           <AppHeader />
 
           <div className="flex flex-row">
-            <div className="py-8 border-2 border-blue-500 rounded-t-lg">
+            <div className="py-8 rounded-t-lg">
               <LinkLibrary props={data} />
             </div>
 
-            <div className="w-full py-2 border-2 rounded-r-lg border-slate-600">
+            <div className="w-full py-2 rounded-r-lg border-slate-600">
               {children}
             </div>
           </div>
