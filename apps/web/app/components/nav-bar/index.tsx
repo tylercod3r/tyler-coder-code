@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { useState } from "react";
-import { useRouter, usePathname } from 'next/navigation'
+import { useRouter, usePathname } from "next/navigation";
+
+import { motion, AnimatePresence } from "framer-motion";
 
 import {
   siteTitle,
@@ -8,8 +10,10 @@ import {
   projectsLabel,
   certsLabel,
   contactLabel,
-  contactEmail
+  contactEmail,
 } from "@/app-content/models/site-text";
+
+import { TfiEmail } from "react-icons/tfi";
 
 const NavBar = () => {
   const router = useRouter();
@@ -54,19 +58,45 @@ const NavBar = () => {
       <div className="hidden navbar-center lg:flex">
         <ul className="px-1 menu menu-horizontal">
           <li>
-            <Link className={usePathname() == "/" ? "active" : ""} href="/">{aboutLabel}</Link>
+            <Link className={usePathname() == "/" ? "active" : ""} href="/">
+              {aboutLabel}
+            </Link>
           </li>
           <li>
-            <Link className={usePathname() == "/projects" ? "active" : ""} href="/projects">{projectsLabel}</Link>
+            <Link
+              className={usePathname() == "/projects" ? "active" : ""}
+              href="/projects"
+            >
+              {projectsLabel}
+            </Link>
           </li>
           <li>
-            <Link className={usePathname() == "/certs" ? "active" : ""}  href="/certs">{certsLabel}</Link>
+            <Link
+              className={usePathname() == "/certs" ? "active" : ""}
+              href="/certs"
+            >
+              {certsLabel}
+            </Link>
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
-        <a href={`mailto:` + `${contactEmail}`} className="btn">{contactLabel}</a>
-      </div>
+      <AnimatePresence>
+        <motion.div
+          initial={{ opacity: 0, y: 15 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: 15 }}
+          transition={{ delay: 0.5 }}
+          className="navbar-end"
+        >
+          <a
+            href={`mailto:` + `${contactEmail}`}
+            className="border-secondary btn btn-outline drop-shadow-lg shadow-cyan-300"
+          >
+            {contactLabel}
+            <TfiEmail scale={10} />
+          </a>
+        </motion.div>
+      </AnimatePresence>
     </div>
   );
 };

@@ -2,7 +2,7 @@
 title: 'soundcloud'
 orderIndex: 4
 url: 'https://soundcloud.com/iffiii'
-icon: ''
+icon: 'SiLinkedin'
 ---
 
 # This is a title

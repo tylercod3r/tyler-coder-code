@@ -37,7 +37,7 @@ export default function RootLayout({
       <body
         className={`max-w-2xl py-6 bg-black m-auto ${RobotoFont.variable} font-roboto`}
       >
-        <div className="flex flex-col">
+        <div className="flex flex-col rounded-lg">
           <AppHeader />
 
           <div className="flex flex-row">

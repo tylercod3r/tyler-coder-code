@@ -20,6 +20,11 @@
     "packages/*"
   ],
   "dependencies": {
-    "react-markdown": "^8.0.7"
+    "@react-three/fiber": "^8.13.3",
+    "framer-motion-3d": "^10.12.16",
+    "popmotion": "^11.0.5",
+    "react-icons": "^4.10.1",
+    "react-markdown": "^8.0.7",
+    "three": "^0.153.0"
   }
 }

@@ -4,14 +4,14 @@ import { PromptFont, MonserratFont } from "@/app-content/fonts/app-fonts";
 import NavBar from "../nav-bar";
 
 import { siteTitle, siteDescription } from "@/app-content/models/site-text";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 
 const AppHeader = () => {
   return (
-    
     <header className="p-1 shadow">
       {/* <div className="flex w-full max-w-2xl pt-10 mx-auto align-middle md:pt-8"> */}
-        <div className="w-1/5 mr-2 ml-36">
+      <div className="w-1/5 mr-2 ml-36">
+        <AnimatePresence>
           <motion.div
             initial="hidden"
             animate="visible"
@@ -19,12 +19,12 @@ const AppHeader = () => {
               hidden: {
                 scale: 0.8,
                 opacity: 0,
-                y:-45
+                y: -45,
               },
               visible: {
                 scale: 2,
                 opacity: 1,
-                y:10,
+                y: 0,
                 transition: {
                   delay: 0.4,
                 },
@@ -35,12 +35,26 @@ const AppHeader = () => {
               {siteTitle.toLowerCase()}
             </h1>
           </motion.div>
-          {/* <h2 className={`${MonserratFont.variable} font-monserrat`}>
-            {siteDescription}
-          </h2> */}
-        </div>
+        </AnimatePresence>
 
-        <NavBar />
+        <AnimatePresence>
+          <motion.div
+            initial={{ opacity: 0, y: 5 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 5 }}
+            transition={{ delay: 1.5, duration: 2 }}
+            className="flex m-auto border-slate-800 text-primary"
+          >
+            <h2
+              className={`text-slate-400 overflow-visible whitespace-nowrap py-3 ${MonserratFont.variable} font-monserrat`}
+            >
+              {siteDescription}
+            </h2>
+          </motion.div>
+        </AnimatePresence>
+      </div>
+
+      <NavBar />
     </header>
   );
 };

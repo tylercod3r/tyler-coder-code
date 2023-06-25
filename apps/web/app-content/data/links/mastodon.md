@@ -2,7 +2,7 @@
 title: 'mastodon'
 orderIndex: 5
 url: 'https://mastodon.social/@tylerparker'
-icon: ''
+icon: 'SiLinkedin'
 ---
 
 # This is a title

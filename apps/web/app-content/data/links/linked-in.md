@@ -2,7 +2,7 @@
 title: 'linked-in'
 orderIndex: 1
 url: 'https://www.linkedin.com/in/tyler-parker-6356b231'
-icon: ''
+icon: 'SiLinkedin'
 ---
 
 # This is a title

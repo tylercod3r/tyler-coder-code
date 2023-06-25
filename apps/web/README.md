@@ -6,10 +6,14 @@ npm i -D daisyui
 2. framer-motion:
 npm i framer-motion
 
-3. gsap:
-npm i gsap
-npm i next-transpile-modules
+3. r3f + framer-motion-3d:
+npm i three @react-three/fiber framer-motion-3d
 
+4. popmotion
+npm i popmotion
+
+5. react-icons
+npm i react-icons
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

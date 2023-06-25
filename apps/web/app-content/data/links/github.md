@@ -2,7 +2,7 @@
 title: 'github'
 orderIndex: 2
 url: 'https://github.com/tylercod3r'
-icon: ''
+icon: 'SiLinkedin'
 ---
 
 # This is a title

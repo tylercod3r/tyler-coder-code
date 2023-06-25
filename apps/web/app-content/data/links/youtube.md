@@ -2,7 +2,7 @@
 title: 'youtube'
 orderIndex: 3
 url: 'https://www.youtube.com/channel/UCO4gy1uGcqtHLpq5wCnqcGA/'
-icon: ''
+icon: 'SiLinkedin'
 ---
 
 # This is a title
