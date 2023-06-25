@@ -22,7 +22,7 @@ const HomePanel = (props: { props: IProps }) => {
           transition={{ delay: .5 }}
           className="flex m-auto border-slate-800 text-primary"
         >
-          <Image className="m-auto rounded-lg" alt="yop" src="/images/about-page/face-4.jpg" width={400} height={400} />
+          <Image className="m-auto rounded-lg" alt="yop" src="/images/about-page/face-5.jpg" width={400} height={400} />
           {/* <TechLibrary techs={props.props.techs} /> */}
         </motion.div>
       </AnimatePresence>
