@@ -6,7 +6,7 @@ keywords: ['unity']
 subKeywords: ['cine-machine']
 orderIndex: 11
 isFeatured: false
-url: 'https://codebycandle.com/lab/dynamic-cam'
+url: '/lab/dynamic-cam/index.html'
 ---
 
 # This is a title

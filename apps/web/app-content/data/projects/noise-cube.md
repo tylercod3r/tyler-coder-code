@@ -6,7 +6,7 @@ keywords: ['unity', 'web']
 subKeywords: ['javascript', 'heavy-js', 'pd']
 orderIndex: 10
 isFeatured: false
-url: 'https://codebycandle.com/lab/noise-cube'
+url: '/lab/noise-cube/index.html'
 ---
 
 # This is a title

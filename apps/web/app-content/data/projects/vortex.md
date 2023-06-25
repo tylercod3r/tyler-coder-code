@@ -6,7 +6,7 @@ keywords: ['web']
 subKeywords: ['javascript', 'processing']
 orderIndex: 1
 isFeatured: false
-url: 'https://codebycandle.com/lab/vortex'
+url: '/lab/vortex/index.html'
 ---
 
 # This is a title

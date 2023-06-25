@@ -6,7 +6,7 @@ keywords: ['unity']
 subKeywords: ['terrain tool']
 orderIndex: 5
 isFeatured: false
-url: 'https://codebycandle.com/lab/blue-mountain'
+url: '/lab/blue-mountain/index.html'
 ---
 
 # This is a title

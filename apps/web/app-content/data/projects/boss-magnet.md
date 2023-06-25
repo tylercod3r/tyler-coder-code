@@ -6,7 +6,7 @@ keywords: ['unity']
 subKeywords: ['c#', 'game-design']
 orderIndex: 8
 isFeatured: false
-url: 'https://codebycandle.com/lab/boss-magnet'
+url: '/lab/boss-magnet/index.html'
 ---
 
 # This is a title

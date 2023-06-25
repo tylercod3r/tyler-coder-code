@@ -6,7 +6,7 @@ keywords: ['web']
 subKeywords: ['javascript', 'd3']
 orderIndex: 2
 isFeatured: false
-url: 'https://codebycandle.com/lab/spending'
+url: '/lab/spending/index.html'
 ---
 
 # This is a title

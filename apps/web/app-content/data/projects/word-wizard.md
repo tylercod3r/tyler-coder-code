@@ -6,7 +6,7 @@ keywords: ['unity']
 subKeywords: ['c#', 'strange-ioc']
 orderIndex: 4
 isFeatured: false
-url: 'https://codebycandle.com/lab/word-wizard'
+url: '/lab/word-wizard/index.html'
 ---
 
 # This is a title

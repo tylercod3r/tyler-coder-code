@@ -6,7 +6,7 @@ keywords: ['unity']
 subKeywords: ['cine-machine']
 orderIndex: 12
 isFeatured: false
-url: 'https://codebycandle.com/lab/ghost-cam'
+url: '/lab/ghost-cam/index.html'
 ---
 
 # This is a title

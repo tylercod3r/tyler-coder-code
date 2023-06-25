@@ -6,7 +6,7 @@ keywords: ['unity']
 subKeywords: ['c#']
 orderIndex: 6
 isFeatured: false
-url: 'https://codebycandle.com/lab/drag-swarm'
+url: '/lab/drag-swarm/index.html'
 ---
 
 # This is a title

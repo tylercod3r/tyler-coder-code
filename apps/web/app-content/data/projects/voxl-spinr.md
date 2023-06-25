@@ -6,7 +6,7 @@ keywords: ['web']
 subKeywords: ['aframe', 'magica-voxel']
 orderIndex: 3
 isFeatured: false
-url: 'https://codebycandle.com/lab/voxl-spinr'
+url: '/lab/voxl-spinr/index.html'
 ---
 
 # This is a title

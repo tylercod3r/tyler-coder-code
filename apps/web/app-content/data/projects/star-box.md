@@ -6,7 +6,7 @@ keywords: ['unity']
 subKeywords: ['shader-graph', 'post-processing']
 orderIndex: 14
 isFeatured: false
-url: 'https://codebycandle.com/lab/star-box'
+url: '/lab/star-box/index.html'
 ---
 
 # This is a title
