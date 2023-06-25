@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Codebycandle | Noise Cube</title>
+
+    <script type="application/javascript" src="js/unity_pd_pianoLib.min.js"></script>
+    <script type="application/javascript" src="js/main.js"></script>
+
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/index.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    
+    
+    
+      <div id="playToggleContainer" style="width: 960px; padding: 0px; margin: 0px; position: absolute; left: -50%">
+          <button style="font-size: 24px; margin: -60px; margin-top:100px" type="button" id="transportButton" onclick="toggleTransport(this);"/>
+        </div> 
+
+
+
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo">
+            <a href="http://www.codebycandle.com" title="HOME" alt="home"><img src="TemplateData/cxc-title-logo.png"/></a>
+        </div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">Noise Cube</div>
+      </div>
+    </div>  
+  </body>
+</html>

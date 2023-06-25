@@ -1,0 +1,26 @@
+@import './_variables.scss';
+
+.mainPageContainer
+{
+  background-color: blue
+}
+
+
+
+
+.mainDiv
+{
+    background-color: red;
+    margin-bottom: 40px;   // $mainDivMarginBottom;
+    padding-top: 20px;   
+}
+
+.container {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: aquamarine;
+ }

@@ -1,0 +1,1 @@
+export const APP_TITLE:string = "Don't Hurt Animals" as string;
