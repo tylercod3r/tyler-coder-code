@@ -1,1 +1,0 @@
-export const APP_CONTENT_DIR:string = 'app';
