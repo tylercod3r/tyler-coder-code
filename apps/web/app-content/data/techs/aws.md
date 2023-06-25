@@ -2,8 +2,8 @@
 title: 'AWS'
 detail: "cloud backend"
 image: b-card.jpg
-keywords: ['backend']
-subKeywords: ['cloud']
+keywords: ['cloud']
+subKeywords: ['']
 orderIndex: 7
 isFeatured: false
 url: 'https://aws.amazon.com/'

@@ -8,9 +8,9 @@ const ProjectPanel = (props: IProps) => {
   const imagePath = `/images/projects/${props.project.image}`;
 
   return (
-    <section className="p-5 m-4 border-2 rounded-r-lg border-slate-600">
+    <section className="p-5 m-4 border-2 rounded-r-lg border-slate-900">
       <h3>{props.project.title.toUpperCase()}</h3>
-
+      <hr className="border-slate-600"></hr>
       <div>
         {props.project.keywords?.map((keyword: string) => (
           <p key={keyword} className="text-secondary">

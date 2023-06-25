@@ -2,7 +2,7 @@
 title: 'Nextjs'
 detail: "react framework"
 image: b-card.jpg
-keywords: ['web-frontend']
+keywords: ['web']
 subKeywords: ['typescript']
 orderIndex: 9
 isFeatured: false

@@ -6,10 +6,10 @@ interface IProps {
 
 const ToolPanel = (props: IProps) => {
   return (
-    <section className="border-slate-600">
+    <section className="py-2 border-slate-600">
       <div /*className={styles.keywordItems}*/>
         {props.tech.keywords?.map((keyword: string) => (
-          <p key={keyword} /*className={KeywordFont.className}*/>
+          <p key={keyword} className="text-slate-700">
             {keyword.toUpperCase()}
           </p>
         ))}

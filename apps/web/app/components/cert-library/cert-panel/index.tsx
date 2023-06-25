@@ -4,7 +4,7 @@ interface IProps {
 
 const CertPanel = (props: IProps) => {
   return (
-    <section className="p-5 m-4 border-2 border-slate-600">
+    <section className="p-5 m-4 border-2 border-slate-900">
       <h3>
         {props.cert.title.toUpperCase()}
       </h3>
