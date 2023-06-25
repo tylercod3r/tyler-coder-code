@@ -1,6 +1,6 @@
 "use client";
 
-import { PromptFont, MonserratFont } from "@/app-content/fonts/app-fonts";
+import { PromptFont, MonserratFont, RajdhaniFont } from "@/app-content/fonts/app-fonts";
 import NavBar from "../nav-bar";
 
 import { siteTitle, siteDescription } from "@/app-content/models/site-text";
@@ -31,7 +31,7 @@ const AppHeader = () => {
               },
             }}
           >
-            <h1 className={`${PromptFont.variable} font-prompt text-secondary`}>
+            <h1 className={`${RajdhaniFont.variable} font-rajdhani text-secondary`}>
               {siteTitle.toLowerCase()}
             </h1>
           </motion.div>

@@ -1,6 +1,12 @@
-import { Prompt, Montserrat, Roboto } from "next/font/google";
+import { Prompt, Rajdhani, Montserrat, Roboto } from "next/font/google";
 
 export const PromptFont = Prompt({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-prompt",
+});
+
+export const RajdhaniFont = Rajdhani({
   weight: "400",
   subsets: ["latin"],
   variable: "--font-prompt",

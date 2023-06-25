@@ -14,6 +14,7 @@ module.exports = {
       },
       fontFamily: {
         prompt: ["var(--font-prompt)"],
+        rajdhani: ["var(--font-rajdhani)"],
         monserrat: ["var(--font-monserrat)"],
         roboto: ["var(--font-roboto)"],
       },
@@ -30,7 +31,7 @@ module.exports = {
           primary: "#ff0000",
           secondary: "#6ac6fd",
           accent: "#0000ff",
-          neutral: "#333333",
+          neutral: "#000000",
           "base-100": "#131313",
           info: "#3abff8",
           success: "#36d399",
