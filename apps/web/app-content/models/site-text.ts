@@ -4,6 +4,6 @@ export const siteDescription: string =
 
 export const aboutLabel: string = "About";
 export const projectsLabel: string = "Projects";
-export const certsLabel: string = "Certs";
+export const certsLabel: string = "Certifications";
 export const contactLabel: string = "Contact";
 export const contactEmail:string = "tyler@tylercoder.com";

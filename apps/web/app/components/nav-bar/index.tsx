@@ -49,7 +49,7 @@ const NavBar = () => {
               <Link href="/projects">{projectsLabel}</Link>
             </li>
             <li>
-              <Link href="/certs">{certsLabel}</Link>
+              <Link href="/certifications">{certsLabel}</Link>
             </li>
           </ul>
         </div>
