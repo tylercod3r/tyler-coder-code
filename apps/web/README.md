@@ -6,6 +6,10 @@ npm i -D daisyui
 2. framer-motion:
 npm i framer-motion
 
+3. gsap:
+npm i gsap
+npm i next-transpile-modules
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
