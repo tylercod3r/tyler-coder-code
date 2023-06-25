@@ -6,7 +6,7 @@ keywords: ['unity']
 subKeywords: ['c#', 'shaders', 'vuforia', 'ar']
 orderIndex: 13
 isFeatured: false
-url: '/lab/b-card/index.html'
+url: 'https://www.youtube.com/watch?v=qYcwB7AQH10'
 ---
 
 # This is a title
