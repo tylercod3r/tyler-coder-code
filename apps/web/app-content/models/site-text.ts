@@ -1,6 +1,6 @@
 export const siteTitle: string = "Tyler Coder";
 export const siteDescription: string =
-  "Fullstack web, gaming, & XR." as string;
+  "Fullstack Web, Gaming, & XR." as string;
 
 export const aboutLabel: string = "About";
 export const projectsLabel: string = "Projects";
