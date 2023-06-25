@@ -1,6 +1,6 @@
 ---
 title: 'github'
-orderIndex: 2
+orderIndex: 3
 url: 'https://github.com/tylercod3r'
 icon: 'SiLinkedin'
 ---
