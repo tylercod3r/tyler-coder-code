@@ -1,6 +1,6 @@
 ---
 title: 'mastodon'
-orderIndex: 5
+orderIndex: 4
 url: 'https://mastodon.social/@tylerparker'
 icon: 'SiLinkedin'
 ---
