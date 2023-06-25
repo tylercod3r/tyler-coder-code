@@ -1,5 +1,5 @@
 ---
-title: 'Nextjs'
+title: 'Next'
 detail: "react framework"
 image: b-card.jpg
 keywords: ['web']
