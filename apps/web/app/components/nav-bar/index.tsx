@@ -90,7 +90,7 @@ const NavBar = () => {
         >
           <a
             href={`mailto:` + `${contactEmail}`}
-            className="border-secondary btn btn-outline drop-shadow-lg shadow-cyan-300"
+            className="border-secondary btn btn-outline drop-shadow-lg hover:bg-slate-600 shadow-cyan-300"
           >
             {contactLabel}
             <TfiEmail scale={10} />
