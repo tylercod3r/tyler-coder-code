@@ -1,6 +1,8 @@
-'use client'
+"use client";
 
 import { motion, AnimatePresence } from "framer-motion";
+
+import Image from "next/image";
 
 import TechLibrary from "../tool-library";
 
@@ -20,9 +22,9 @@ const HomePanel = (props: { props: IProps }) => {
           transition={{ delay: 0.25 }}
           className="flex border-slate-800 text-primary"
         >
-          <TechLibrary techs={props.props.techs} />
-          {/* <ProjectLibrary projects={props.props.projects} /> */}
-          {/* <CertLibrary certs={props.props.certs} /> */}
+          <Image alt="yop" src="/images/about-page/face.jpg" width={400} height={400} />
+          {/* <TechLibrary techs={props.props.techs} /> */}
+
         </motion.div>
       </AnimatePresence>
     </main>
