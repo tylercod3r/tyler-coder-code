@@ -72,8 +72,8 @@ const NavBar = () => {
           </li>
           <li>
             <Link
-              className={usePathname() == "/certs" ? "active" : ""}
-              href="/certs"
+              className={usePathname() == "/certifications" ? "active" : ""}
+              href="/certifications"
             >
               {certsLabel}
             </Link>
