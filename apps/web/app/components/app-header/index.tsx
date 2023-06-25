@@ -39,9 +39,9 @@ const AppHeader = () => {
 
         <AnimatePresence>
           <motion.div
-            initial={{ opacity: 0, y: 5 }}
+            initial={{ opacity: 0, y: 0 }}
             animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: 5 }}
+            exit={{ opacity: 0, y: 0 }}
             transition={{ delay: 1.5, duration: 2 }}
             className="flex m-auto border-slate-800 text-primary"
           >
