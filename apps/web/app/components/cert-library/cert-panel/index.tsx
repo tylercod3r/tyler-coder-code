@@ -25,7 +25,7 @@ const CertPanel = (props: IProps) => {
           rel="noopener noreferrer"
           className="mx-20 btn btn-outline"
         >
-          view cert
+          view
         </a>
       </div>
     </section>
