@@ -1,4 +1,5 @@
 import React from "react";
+import Link from 'next/link';
 import { SiLinkedin } from "react-icons/si";
 
 import { motion, AnimatePresence } from "framer-motion";
@@ -26,7 +27,9 @@ const LinkPanel = (props: IProps) => {
         },
       }}
     >
-      {props.link.title.toUpperCase()}
+      <Link href={props.link.url} passHref legacyBehavior>
+       <a target="_blank">{props.link.title.toUpperCase()}</a>
+       </Link>
     </motion.li>
   );
 };
