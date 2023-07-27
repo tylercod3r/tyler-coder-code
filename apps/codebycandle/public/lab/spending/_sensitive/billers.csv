@@ -1,0 +1,40 @@
+"ExpenseType","Payee"
+
+"bank","Account Maintenance Fee"
+"bank","ATM Fee"
+"bank",Cash Advance Fee"
+"bank","Interest Charge Cash"
+"bank","Interest Charge Purchases"
+"bank","Non-Sufficient Funds Fee"
+
+"dev","InternetCo."
+"dev","Oculus"
+"dev","Udemy"
+"dev","Unity Technologies"
+
+"electricity","Elec Co."
+"electricity","Elec Co. Web Online"
+
+"food","Super Fresh"
+"food","Yum.com"
+"food","Whole Foods"
+"food","Subway"
+
+"green","ATM Withdrawal"
+
+"hair","Supercuts"
+
+"movie","Netflix"
+
+"internet","WebCo. Ca"
+
+"phone","AT&T Wireless"
+
+"shopping","Amazon"
+"shopping","Online Shoes"
+"shopping","Walgreens"
+    
+"taxes","State Tax"
+
+"travel","Shipper Service Ca"
+"travel","Uber"
