@@ -41,9 +41,11 @@ export default function RootLayout({
           <AppHeader />
 
           <div className="flex flex-row">
+			<!--
             <div className="py-8 rounded-t-lg">
               <LinkLibrary props={data} />
             </div>
+			-->
 
             <div className="w-full py-2 rounded-r-lg border-slate-600">
               {children}
