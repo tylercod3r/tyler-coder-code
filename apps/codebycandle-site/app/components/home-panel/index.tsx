@@ -25,7 +25,7 @@ const HomePanel = (props: { props: IProps }) => {
           <Image
             className="rounded-lg"
             alt="yop"
-            src="/images/about-page/face-5.jpg"
+            src="/images/about-page/slider-01.jpg"
             width={400}
             height={400}
           />
