@@ -12,7 +12,7 @@ import {
 } from "@/app-content/utils/content-utils";
 
 export const metadata: Metadata = {
-  title: "tylercoder.com",
+  title: "codebycandle.com",
   description:
     "Fullstack software development for web, gaming, & mixed-reality.",
 };
