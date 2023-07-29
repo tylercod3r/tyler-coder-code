@@ -10,6 +10,9 @@ export default function Home() {
         <div className="fixed bottom-0 left-0 flex items-end justify-center w-full h-48 bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
         under construction...
         </div>
+        <div className="fixed bottom-0 left-0 flex items-end justify-center w-full h-48 bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
+        <p className="text-slate-600 credits">Copyright &copy; 2023 Codebycandle, LLC</p>
+        </div>
       </div>
 
       <div className="grid mb-32 text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
