@@ -1,14 +1,11 @@
 import Link from "next/link";
-import { useState } from "react";
 import { useRouter, usePathname } from "next/navigation";
 
 import { motion, AnimatePresence } from "framer-motion";
 
 import {
-  siteTitle,
   aboutLabel,
   projectsLabel,
-  certsLabel,
   contactLabel,
   contactEmail,
 } from "@/app-content/models/site-text";
@@ -48,9 +45,6 @@ const NavBar = () => {
             <li>
               <Link href="/projects">{projectsLabel}</Link>
             </li>
-            <li>
-              <Link href="/certifications">{certsLabel}</Link>
-            </li>
           </ul>
         </div>
         <a className="text-xl normal-case btn btn-ghost"></a>
@@ -68,14 +62,6 @@ const NavBar = () => {
               href="/projects"
             >
               {projectsLabel}
-            </Link>
-          </li>
-          <li>
-            <Link
-              className={usePathname() == "/certifications" ? "active" : ""}
-              href="/certifications"
-            >
-              {certsLabel}
             </Link>
           </li>
         </ul>
