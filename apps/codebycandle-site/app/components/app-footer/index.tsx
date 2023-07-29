@@ -13,7 +13,7 @@ const AppFooter = () => {
           transition={{ delay: 1 }}
           className="p-4 text-center"
         >
-          <p className="text-slate-600 credits">Copyright &copy; 2023 codebycandle.com</p>
+          <p className="text-slate-600 credits">Copyright &copy; 2023 Codebycandle, LLC</p>
         </motion.div>
       </AnimatePresence>
     </footer>
