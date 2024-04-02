@@ -1,7 +1,7 @@
 ---
-title: 'soundcloud'
+title: 'wip tune'
 orderIndex: 5
-url: 'https://soundcloud.com/iffiii'
+url: 'https://wiptune.com/iffiii'
 icon: 'SiLinkedin'
 ---
 
