@@ -1,9 +1,9 @@
 ---
 title: 'Immersed'
-detail: "[tech demo] Mixed-reality app tracking HMD momvement in physical space."
+detail: "[tech demo] Realtime analytics for mixed-reality."
 image: immersed.jpg
 keywords: ['unity', 'web']
-subKeywords: ['node-js', 'magic-leap']
+subKeywords: ['magic-leap','node-js', 'chart-js']
 orderIndex: 15
 isFeatured: false
 url: 'https://www.youtube.com/watch?v=PFR7no2Lm9A'
