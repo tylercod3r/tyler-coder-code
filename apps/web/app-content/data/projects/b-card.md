@@ -4,7 +4,7 @@ detail: "Vuforia image target with custom CG shaders."
 image: b-card.jpg
 keywords: ['unity']
 subKeywords: ['c#', 'shaders', 'vuforia', 'ar']
-orderIndex: 13
+orderIndex: 14
 isFeatured: false
 url: 'https://www.youtube.com/watch?v=qYcwB7AQH10'
 ---

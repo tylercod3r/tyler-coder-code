@@ -1,9 +1,9 @@
 ---
 title: 'Wip Tune'
-detail: "Content-sharing web app for music producers."
-image: wip-tune.png
+detail: "Content-sharing cloud app for music producers."
+image: wip-tune2.png
 keywords: ['web']
-subKeywords: ['next.js', 'supabase', 'three.js', 'tailwind']
+subKeywords: ['next.js', 'tailwind', 'r3f', 'supabase']
 orderIndex: 16
 isFeatured: false
 url: 'https://wiptune.com/iffiii'
