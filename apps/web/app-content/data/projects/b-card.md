@@ -1,9 +1,9 @@
 ---
-title: 'B CARD'
-detail: "Vuforia image target with custom CG shaders."
+title: 'BIDNESS CARD'
+detail: "[tech demo] AR Image target with custom CG shader."
 image: b-card.jpg
 keywords: ['unity']
-subKeywords: ['c#', 'shaders', 'vuforia', 'ar']
+subKeywords: ['c#', 'vuforia']
 orderIndex: 14
 isFeatured: false
 url: 'https://www.youtube.com/watch?v=qYcwB7AQH10'

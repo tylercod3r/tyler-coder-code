@@ -1,6 +1,6 @@
 ---
 title: 'STAR BOX'
-detail: "Testing HSV Color radiance."
+detail: "[tech demo] Testing HSV Color radiance."
 image: star-box.jpg
 keywords: ['unity']
 subKeywords: ['c#', 'shader-graph']

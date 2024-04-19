@@ -1,6 +1,6 @@
 ---
 title: 'Wip Tune'
-detail: "Content-sharing cloud app for procrasinating music producers."
+detail: "[web app] Content-sharing for procrasinating music producers."
 image: wip-tune2.png
 keywords: ['web']
 subKeywords: ['next.js', 'tailwind', 'r3f', 'supabase']

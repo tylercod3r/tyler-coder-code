@@ -1,6 +1,6 @@
 ---
 title: 'DYNAMIC CAM'
-detail: "Camera selection via player-driven collsion zone interaction."
+detail: "[tech demo] Camera selection via player navigation."
 image: dynamic-cam.jpg
 keywords: ['unity']
 subKeywords: ['cine-machine', 'animation']

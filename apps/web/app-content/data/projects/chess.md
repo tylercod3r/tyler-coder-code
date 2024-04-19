@@ -1,6 +1,6 @@
 ---
 title: 'CHESS'
-detail: "Of course, I had to make a chess game."
+detail: "[game demo] Of course, I had to make chess."
 image: chess.jpg
 keywords: ['unity']
 subKeywords: ['c#', 'strange-ioc']

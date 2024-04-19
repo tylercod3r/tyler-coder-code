@@ -1,9 +1,9 @@
 ---
 title: 'DRAG SWARM'
-detail: "Testing flocking behavior as ui feedback."
+detail: "[tech demo] Particle flocking as ui feedback."
 image: drag-swarm.jpg
 keywords: ['unity']
-subKeywords: ['c#', 'ui design']
+subKeywords: ['c#', '2d ui']
 orderIndex: 5
 isFeatured: false
 url: 'https://tylercoder-labs-drag-swarm.s3.us-east-2.amazonaws.com/index.html'

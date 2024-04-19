@@ -4,7 +4,7 @@ detail: "Randomized line rendering with ProcessingJS."
 image: vortex.jpg
 keywords: ['web']
 subKeywords: ['javascript', 'processing']
-orderIndex: 1
+orderIndex: -3
 isFeatured: false
 url: '/lab/vortex/index.html'
 ---

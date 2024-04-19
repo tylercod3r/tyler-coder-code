@@ -1,9 +1,9 @@
 ---
 title: 'BLUE MOUNTAIN'
-detail: "...surfing topographies."
+detail: "[tech demo] Navigating dynamic map terrain."
 image: blue-mountain.jpg
 keywords: ['unity']
-subKeywords: ['terrain tool', 'ui design']
+subKeywords: ['terrain tool', '2d ui']
 orderIndex: 4
 isFeatured: false
 url: 'https://tylercoder-labs-blue-mountain.s3.us-east-2.amazonaws.com/index.html'

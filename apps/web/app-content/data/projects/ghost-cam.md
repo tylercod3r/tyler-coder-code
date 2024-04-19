@@ -1,6 +1,6 @@
 ---
 title: 'GHOST CAM'
-detail: "Emulating the flight path of an apparition."
+detail: "[tech demo] Emulating the flight path of an apparition."
 image: ghost-cam.jpg
 keywords: ['unity']
 subKeywords: ['cine-machine', 'post-processing']

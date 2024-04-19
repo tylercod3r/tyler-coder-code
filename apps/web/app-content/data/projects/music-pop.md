@@ -1,6 +1,6 @@
 ---
 title: 'Music Pop'
-detail: "Motion-tracking with audio-sync; Tango + Koreographer."
+detail: "[game demo] Motion-tracking with synced event audio."
 image: music-pop.jpg
 keywords: ['unity']
 subKeywords: ['c#', 'tango', 'koreographer']

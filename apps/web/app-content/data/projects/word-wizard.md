@@ -1,6 +1,6 @@
 ---
 title: 'WORD WIZARD'
-detail: "Word-guessing game prototype. Thank you, Slavo, for the steampunk design."
+detail: "[game demo] Guess the word! Steampunk design by Slavo."
 image: word-wizard.jpg
 keywords: ['unity']
 subKeywords: ['c#', '2d']
