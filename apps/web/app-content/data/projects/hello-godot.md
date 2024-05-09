@@ -1,6 +1,6 @@
 ---
 title: 'Hello Godot'
-detail: "[web game] Exploring the opensource game engine."
+detail: "[game demo] Exploring the opensource game engine."
 image: hello-godot.jpg
 keywords: ['godot']
 subKeywords: ['gdscript']
