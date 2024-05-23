@@ -6,7 +6,7 @@ keywords: ['web']
 subKeywords: ['next.js', 'tailwind', 'r3f', 'postgres']
 orderIndex: 16
 isFeatured: false
-url: 'https://wiptune.com/iffiii'
+url: 'https://wiptune.com'
 ---
 
 # This is a title
