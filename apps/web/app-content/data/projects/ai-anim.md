@@ -6,7 +6,7 @@ keywords: ['ai']
 subKeywords: ['stable diffusion', 'deforum']
 orderIndex: 18
 isFeatured: false
-url: 'https://www.youtube.com/watch?v=H84O8ZInzuo'
+url: 'https://www.youtube.com/watch?v=ljHvFW-ntlw'
 ---
 
 # This is a title
