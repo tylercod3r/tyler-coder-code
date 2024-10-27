@@ -6,7 +6,7 @@ keywords: ["godot"]
 subKeywords: ["gdscript", "audio"]
 orderIndex: 21
 isFeatured: false
-url: "https://www.youtube.com/watch?v=_JviXSJ82yc"
+url: "https://www.youtube.com/watch?v=yNtNUBPDU8Q"
 ---
 
 # This is a title
