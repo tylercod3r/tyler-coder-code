@@ -1,6 +1,6 @@
 ---
 title: "Study Card"
-detail: "[admin tool] A Flashcard app to help study!"
+detail: "[admin tool] A flashcard app to help study!"
 image: study-card.jpg
 keywords: ["nextjs"]
 subKeywords: ["tailwind", "typescript", "markdown"]
